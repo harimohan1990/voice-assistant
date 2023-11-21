@@ -1,0 +1,28 @@
+/* VoiceAssistant.css */
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .transcript {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
